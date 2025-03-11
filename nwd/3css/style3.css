@@ -1,0 +1,50 @@
+body{
+    background-color: aquamarine;
+}
+@media screen and (min-width:600px) {
+    body{
+        background-color:violet;
+    }
+    .col-md-6{
+        width: 50%;
+        float: left;
+        background-color: pink;
+    }
+    .col-md-3{
+        width: 33.3%;
+        float: left;
+        background-color: darkgray;
+    }
+}
+
+@media screen and (min-width : 992px) {
+    body{
+        background-color: aqua;
+    }
+    .col-lg-3{
+        width: 25%;
+        float: left;
+        background-color: steelblue;
+    }
+    .col-lg-4{
+        width: 33.3%;
+        float: left;
+        background-color: rgb(33, 116, 116);
+    }
+    
+}
+img{
+    width: 100%;
+    
+}
+.p-2{
+    padding: 20px;
+}
+*{
+    box-sizing: border-box;
+}
+.row-after{
+    content: "";
+    clear: both;
+    display: table;
+}
